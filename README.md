@@ -1,0 +1,2 @@
+# diceware_slovak
+TBD
