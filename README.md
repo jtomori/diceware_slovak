@@ -82,7 +82,24 @@
 
 <br>
 
+## Usage
+* `generate.py` generates dictionaries
+* `$ cat diceware_sk_6_rolls | grep "^123456"` searches for combination `123456` in `diceware_sk_6_rolls` wordlist
+    * if you prepend your *Bash* command with space on some linux distributions, it will not be saved in `~/.bash_history`
+
+<br>
+
 ## Notes
 * `log2(n) = log(n) / log(2)`
 * If you are lazy to remember more words, then use larger wordlist
 * If you reuse your password, high entropy will not help you
+* Not using diacritics in words, or using only lowercase letters does not decrease entropy if attacker knows about it, in brute-force attacks it will decrease entropy
+    * If still worried, add another word to your passphrase
+    * Using ant not using diacritics randomly (with dice) will increase entropy in both cases
+
+<br>
+
+## Sources
+* [What is Diceware](http://world.std.com/~reinhold/diceware.html)
+* [Diceware FAQ](http://world.std.com/%7Ereinhold/dicewarefaq.html)
+* [Slovak frequency wordlist](https://p.brm.sk/sk_wordlist/)
