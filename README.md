@@ -29,7 +29,7 @@
 
 #### Calculations
 
-* 1 word
+* 1 word passphrase
     * 5 dice wordlist: `1 * log2(7 776) = ~12.92 bits`
     * 6 dice wordlist: `1 * log2(46 656) = ~15.51 bits`
     * 7 dice wordlist: `1 * log2(279 936) = ~18.1 bits`
