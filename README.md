@@ -12,7 +12,7 @@
 
 ### When wordlist is known and word choice is random (dice throws)
 
-#### Table
+#### Table (bits)
 
 |  | 5 dice rolls | 6 dice rolls | 7 dice rolls | 8 dice rolls |
 | - | - | - | - | - |
@@ -91,11 +91,8 @@
 
 ## Notes
 * `log2(n) = log(n) / log(2)`
-* If you are lazy to remember more words, then use larger wordlist
+* If you are lazy to remember larger passphrase, then use larger wordlist
 * If you reuse your password, high entropy will not help you
-* Not using diacritics in words, or using only lowercase letters does not decrease entropy if attacker knows about it, in brute-force attacks it will decrease entropy
-    * If still worried, add another word to your passphrase
-    * Using ant not using diacritics randomly (with dice) will increase entropy in both cases
 
 <br>
 
